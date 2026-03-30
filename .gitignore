@@ -1,0 +1,17 @@
+# Ignore large datasets and model files
+__pycache__/
+*.pyc
+
+# Olist Dataset Raw Files
+data/
+
+# Large artifacts
+rf_model.pkl
+final_olist_competitive_analysis.csv
+
+# Keep streamlit data and feature mappings
+!streamlit_data.csv
+!features.pkl
+
+# IPython Notebook Checkpoints
+.ipynb_checkpoints/
