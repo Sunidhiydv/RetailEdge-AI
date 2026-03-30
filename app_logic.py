@@ -24,7 +24,7 @@ def predict_score(price, freight, delivery_days):
     constructs an input feature array, and predicts the review score.
     Returns the predicted score, or None if files are missing.
     """
-    model_path = 'rf_model.pkl'
+    model_path = 'rf_model.pkl.z'
     features_path = 'features.pkl'
     
     if not os.path.exists(model_path):

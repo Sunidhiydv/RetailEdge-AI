@@ -6,7 +6,7 @@ __pycache__/
 data/
 
 # Large artifacts
-rf_model.pkl
+
 final_olist_competitive_analysis.csv
 
 # Keep streamlit data and feature mappings
